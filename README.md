@@ -1,4 +1,4 @@
-# my first Scala practice with Eclipse
+## my first Scala practice with Eclipse
 -----
 
 ### prepare for development
