@@ -1,6 +1,6 @@
 package jp.co.opst.hello_scala
 
-object Practice03_function_user {
+object Practice03_function_use {
 
   def main(args:Array[String]) = {
 
