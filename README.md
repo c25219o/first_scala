@@ -17,7 +17,7 @@
   - essential grammer
   - function usage
   - i/o management
-and so on... please wait
+and so on...  please wait
 
 #### package jp.co.opst.be_friends
 (maybe class, complex architecture, inheritation, trait)
