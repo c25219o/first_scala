@@ -30,5 +30,14 @@ object HelloScala {
     println(map("Java"))
     println(map("Ruby"))
 
+    val symbl1 = Symbol("Hello")
+    val symbl2 = Symbol("Hello")
+    println("symbl1 = symbl2 ? --> " + (symbl1 eq symbl2))
+
+    val str1 = new String("Hello")
+    val str2 = new String("Hello")
+    println("str1 = str2 ? --> " + (str1 eq str2))
+
+
   }
 }
