@@ -5,6 +5,7 @@ package jp.co.opst.hello_scala
  * Scalaのmatch構文(Javaでいうswitch)の練習クラス
  */
 object Practice02_match {
+
   def main(args: Array[String]) = {
 
     println("アルファベット検査")
@@ -35,7 +36,9 @@ object Practice02_match {
       case i:Int => println(i + "は数字です")
       case s:String => println(s + "は文字列です")
       case d:Double => println(d + "は小数です")
-      case _ => (input2 + "は数字でも文字列でもないものです")
+
+      //なぜかこれを入れるとmainメソッドの書き方がおかしいといわれる...
+//      case _ => (input2 + "は数字でも文字列でもないものです")
     }
 
 
